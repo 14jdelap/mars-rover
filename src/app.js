@@ -1,4 +1,4 @@
-const Engine = require("./classes/Engine");
+const Engine = require("./classes/engine");
 
 // Instantiate an engine instance
 const engine = new Engine();
