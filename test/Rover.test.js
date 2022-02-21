@@ -60,7 +60,7 @@ describe("Raise error when input is invalid", () => {
         const rover = new Rover(input, 10, 10);
       } catch (err) {
         expect(err).toBeInstanceOf(Error);
-        expect(err.message).toBe("The rover's input was formatted incorrectly");
+        expect(err.message).toBe("The rover's input is invalid");
       }
   });
 
@@ -71,7 +71,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 
@@ -82,7 +82,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 
@@ -93,7 +93,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 
@@ -104,7 +104,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 
@@ -115,7 +115,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 
@@ -126,7 +126,7 @@ describe("Raise error when input is invalid", () => {
       const rover = new Rover(input, 10, 10);
     } catch (err) {
       expect(err).toBeInstanceOf(Error);
-      expect(err.message).toBe("The rover's input was formatted incorrectly");
+      expect(err.message).toBe("The rover's input is invalid");
     }
   });
 

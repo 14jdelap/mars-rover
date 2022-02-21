@@ -1,14 +1,9 @@
 const rs = require("readline-sync");
 
-const Rover = require("./Rover");
-const Grid = require("./Grid");
+const Rover = require("./rover");
+const Grid = require("./grid");
 
-const {
-  welcomeMessage,
-  askGridSize,
-  howToUseRovers,
-  askRoverInputs,
-} = require("../modules/display");
+const Display = require("../modules/display");
 
 class Engine {
   constructor() {
@@ -18,16 +13,16 @@ class Engine {
   }
 
   static getGridInputs() {
-    welcomeMessage()
-    return rs.question(askGridSize);
+    Display.welcomeMessage()
+    return rs.question(Display.askGridSize);
   }
 
   execute() {
-    console.log(howToUseRovers);
+    console.log(Display.howToUseRovers);
 
     while (true) {
-      const roverInput = rs.question(askRoverInputs);
-      const rover = new Rover(roverInput);
+      const roverInput = rs.question(Display.askRoverInputs);
+      const rover = new Rover(roverInput, this.grid.length, this.grid.width);
       rover.executeCommands(this.grid.length, this.grid.width);
     }
   }

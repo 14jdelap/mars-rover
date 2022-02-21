@@ -22,7 +22,7 @@ class Rover {
     const validInputs = /^\(\s*[0-9]+\s*,\s*[0-9]+\s*,\s*[NSWE]\s*\)\s*[FRL]+?$/i.test(trimmedInput);
 
     if (!validInputs) {
-      throw new Error("The rover's input was formatted incorrectly");
+      throw new Error("The rover's input is invalid");
     }
 
     // Split by the closing parentheses
