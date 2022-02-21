@@ -91,13 +91,11 @@ This is because badly formatted inputs compromise the rest of the program.
 
 I tested 2 classes to 100% coverage with Jest unit tests: `Grid` and `Rover`. You can run the tests with `npm test`.
 
-----------|---------|----------|---------|---------|-------------------
 File      | % Stmts | % Branch | % Funcs | % Lines | Uncovered Line #s
 ----------|---------|----------|---------|---------|-------------------
 All files |     100 |      100 |     100 |     100 |
  grid.js  |     100 |      100 |     100 |     100 |
  rover.js |     100 |      100 |     100 |     100 |
-----------|---------|----------|---------|---------|-------------------
 
 Test Suites: 2 passed, 2 total
 Tests:       36 passed, 36 total
