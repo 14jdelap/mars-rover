@@ -97,11 +97,6 @@ All files |     100 |      100 |     100 |     100 |
  grid.js  |     100 |      100 |     100 |     100 |
  rover.js |     100 |      100 |     100 |     100 |
 
-Test Suites: 2 passed, 2 total
-Tests:       36 passed, 36 total
-Snapshots:   0 total
-Time:        0.833 s, estimated 1 s
-
 Future work would involve creating the integration tests for the `Engine` class.
 
 I also frequently tested during development with `console.log` statements, which I later removed.
