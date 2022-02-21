@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1645403753167" clover="3.2.0">
-  <project timestamp="1645403753168" name="All files">
+<coverage generated="1645403913558" clover="3.2.0">
+  <project timestamp="1645403913558" name="All files">
     <metrics statements="85" coveredstatements="85" conditionals="38" coveredconditionals="38" methods="11" coveredmethods="11" elements="134" coveredelements="134" complexity="0" loc="85" ncloc="85" packages="1" files="2" classes="2"/>
     <file name="grid.js" path="/Users/jadlp/repos/coding-challenges/multiverse/src/classes/grid.js">
       <metrics statements="10" coveredstatements="10" conditionals="2" coveredconditionals="2" methods="2" coveredmethods="2"/>
